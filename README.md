@@ -108,10 +108,10 @@ There is a way to build and start booth components locally in a dev environment 
 
 3. **Verify**
   - Go to http://localhost:8080 and http://localhost:8081 respectively and verify that booth the client and the hub is running. 
-  - Look at the API definition of the HUB at http://localhost:8080/swagger-ui.html
-  - Try to manually register an aditional client using the swagger UI. Click on register and "Try it now" provide some parameters and klick on "Execute". Verify that you now have two demo clients in the HUB ui.
 
-Stop here when done. The course will continue.
+  - Try to register, unregister and set a rating and see how it updates in the HUB UI.
+  - Spring boot comes with swagger to describe the API. Have a look at the API documentation on the default swagger adress http://localhost:8080/swagger-ui.html
+  - Using the API, try to register an additional participant by klicking "Try it out" in the swagger gui. Change the default name to someting else and execute a API call. Verify that there now are two participants in the HUB UI.
 
 # Setup 2 - move to the cloud
 
